@@ -20,5 +20,5 @@ def inference_func():
     return album_name
 
 
-model = load_model(r'C:\Users\oronf\Documents\PythonProjects\FinalProjectDS\testing\InceptionResNetV2_model')
+model = load_model('InceptionResNetV2_model')
 app.run(host='0.0.0.0', port=8080)
